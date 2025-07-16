@@ -1,0 +1,123 @@
+{
+  "evaluation_metadata": {
+    "contest": "IMO 2025",
+    "total_problems": 6,
+    "total_models": 3
+  },
+  "models": {
+    "anthropic_claude_sonnet_4_thinking": {
+      "problem_1": {
+        "token_count": 59509,
+        "cost": 0.884,
+        "is_correct": true,
+        "is_complete": false
+      },
+      "problem_2": {
+        "token_count": 26330,
+        "cost": 0.392,
+        "is_correct": false,
+        "is_complete": false
+      },
+      "problem_3": {
+        "token_count": 33988,
+        "cost": 0.505,
+        "is_correct": true,
+        "is_complete": false
+      },
+      "problem_4": {
+        "token_count": 31324,
+        "cost": 0.466,
+        "is_correct": false,
+        "is_complete": false
+      },
+      "problem_5": {
+        "token_count": 23252,
+        "cost": 0.346,
+        "is_correct": false,
+        "is_complete": false
+      },
+      "problem_6": {
+        "token_count": 61116,
+        "cost": 0.908,
+        "is_correct": false,
+        "is_complete": false
+      }
+    },
+    "bytedance_seed_thinker_1_6": {
+      "problem_1": {
+        "token_count": 16630,
+        "cost": 0.03326,
+        "is_correct": false,
+        "is_complete": false
+      },
+      "problem_2": {
+        "token_count": 21053,
+        "cost": 0.042106,
+        "is_correct": false,
+        "is_complete": false
+      },
+      "problem_3": {
+        "token_count": 16097,
+        "cost": 0.032194,
+        "is_correct": true,
+        "is_complete": false
+      },
+      "problem_4": {
+        "token_count": 19850,
+        "cost": 0.0397,
+        "is_correct": false,
+        "is_complete": false
+      },
+      "problem_5": {
+        "token_count": 19014,
+        "cost": 0.0397,
+        "is_correct": true,
+        "is_complete": true
+      },
+      "problem_6": {
+        "token_count": 11678,
+        "cost": 0.023356,
+        "is_correct": false,
+        "is_complete": false
+      }
+    },
+    "google_gemini_2_5_pro": {
+      "problem_1": {
+        "token_count": 31112,
+        "cost": 0.31112,
+        "is_correct": true,
+        "is_complete": false
+      },
+      "problem_2": {
+        "token_count": 33145,
+        "cost": 0.33145,
+        "is_correct": false,
+        "is_complete": false
+      },
+      "problem_3": {
+        "token_count": 32356,
+        "cost": 0.32356,
+        "is_correct": false,
+        "is_complete": false
+      },
+      "problem_4": {
+        "token_count": 28375,
+        "cost": 0.28375,
+        "is_correct": false,
+        "is_complete": false
+      },
+      "problem_5": {
+        "token_count": 28263,
+        "cost": 0.28263,
+        "is_correct": true,
+        "is_complete": true
+      },
+      "problem_6": {
+        "token_count": 30619,
+        "cost": 0.30619,
+        "is_correct": false,
+        "is_complete": false
+      }
+    }
+  }
+} 

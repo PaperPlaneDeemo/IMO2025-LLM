@@ -16,4 +16,10 @@ You can use this repository to:
 - Review the IMO 2025 problems and their solutions by different LLMs.
 - Extend the dataset with new models or additional analysis.
 
+## Inference Parameters
+
+- **OpenAI models (o3-medium, o4-mini-high):** Used the response API with default parameters.
+- **Deepseek R1:** Used official recommended parameters: `temperature=0.6`, `top_p=0.95`.
+- **All other models:** Used `temperature=0`, `top_p=1`.
+
 

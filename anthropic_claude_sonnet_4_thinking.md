@@ -1,4 +1,4 @@
-**Problem 1**
+# Problem 1
 
 Looking at this problem, I need to find all possible values of $k$ (number of sunny lines) for a given $n ≥ 3$.
 
@@ -71,7 +71,7 @@ Similar analysis shows that for $k ≥ 4$, the remaining points after using non-
 
 For all integers $n ≥ 3$, the achievable values are exactly $\boxed{k ∈ \{0, 1, 3\}}$.
 
-**Problem 2**
+# Problem 2
 
 Looking at this problem, I'll establish a coordinate system and use properties of the configuration to prove the tangency.
 
@@ -121,7 +121,7 @@ The line through $H$ parallel to $AP$ is the polar of the point at infinity in t
 **Conclusion:**
 The harmonic properties of the radical axis, combined with the special position of the circumcenter $P$ and orthocenter $H$, create the precise geometric relationship needed for the tangency condition to hold.
 
-**Problem 3**
+# Problem 3
 
 Looking at this problem, I need to find the smallest constant $c$ such that $f(n) \le cn$ for all bonza functions $f$ and all positive integers $n$.
 
@@ -198,7 +198,7 @@ Through systematic analysis of the constraints and construction of explicit exam
 
 $$\boxed{4}$$
 
-**Problem 4**
+# Problem 4
 
 Looking at this problem, I need to find values of $a_1$ such that the sequence can continue indefinitely, with each term having at least three proper divisors.
 
@@ -267,7 +267,7 @@ $$a_1 = 2 \times 3 \times p \text{ for primes } p \geq 7$$
 
 These include: $6, 18, 42, 54, 66, 78, 102, 114, 126, 138, 162, 174, 186, 198, \ldots$
 
-**Problem 5**
+# Problem 5
 
 Looking at this two-player game, I need to analyze when each player has a winning strategy by examining the constraints and optimal play.
 
@@ -342,7 +342,7 @@ I can verify that neither player can improve by deviating from this strategy, as
 - **Bazza has a winning strategy if and only if $\lambda < 1$**
 - **If $\lambda = 1$, neither player has a winning strategy** (the game can continue indefinitely)
 
-**Problem 6**
+# Problem 6
 
 Looking at this problem, I need to find the minimum number of rectangular tiles to cover a 2025×2025 grid such that exactly one square per row and per column remains uncovered.
 

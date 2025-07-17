@@ -1,4 +1,4 @@
-**Problem 1**
+# Problem 1
 
 <thinking>Got it, let's try to tackle this problem step by step. First, let's make sure I understand the definitions and the conditions correctly.
 
@@ -292,7 +292,7 @@ The only possible nonnegative integers \( k \) are \( 0 \) and \( 1 \).
 \boxed{0, 1}
 \]
 
-**Problem 2**
+# Problem 2
 
 <thinking>Got it, let's try to tackle this problem step by step. First, let's parse the problem statement and note down all the components, maybe draw a rough diagram to visualize.
 
@@ -851,7 +851,7 @@ To solve this problem, we start by setting up a coordinate system to simplify th
 
 **Answer:** The line through \( H \) parallel to \( AP \) is tangent to the circumcircle of \( \triangle BEF \).
 
-**Problem 3**
+# Problem 3
 
 <thinking>Got it, let's try to tackle this problem step by step. The problem is about "bonza" functions, which are functions \( f : \mathbb{N} \to \mathbb{N} \) such that for all positive integers \( a, b \), \( f(a) \) divides \( b^a - f(b)^{f(a)} \). In other words, \( b^a \equiv f(b)^{f(a)} \pmod{f(a)} \) for all \( a, b \in \mathbb{N} \). We need to find the smallest real constant \( c \) such that \( f(n) \leq cn \) for all bonza functions \( f \) and all \( n \in \mathbb{N} \).
 
@@ -981,7 +981,7 @@ The maximum value of \( f(n) \) for any bonza function occurs at powers of 2, wh
 \boxed{4}
 \]
 
-**Problem 4**
+# Problem 4
 
 <thinking>Got it, let's try to solve this problem step by step. The problem says: we have an infinite sequence where each term is a positive integer with at least three proper divisors. A proper divisor is a divisor other than the number itself, so for a number \( N \), proper divisors are positive integers \( d \) such that \( d|N \) and \( d < N \). Then, each next term \( a_{n+1} \) is the sum of the three largest proper divisors of \( a_n \). We need to find all possible starting values \( a_1 \) such that this sequence can go on infinitely (since it's an infinite sequence, we can't have a term that doesn't have at least three proper divisors, right? Wait, the problem states "the infinite sequence \( a_1, a_2, \dots \) consists of positive integers, each of which has at least three proper divisors." So every term must have at least three proper divisors, so we need to make sure that no matter how many terms we take, each one has at least three proper divisors, and each next term is defined as the sum of the three largest proper divisors of the previous term.
 
@@ -1398,7 +1398,7 @@ The only number that generates an infinite constant sequence is 6, as it has exa
 \boxed{6}
 \]
 
-**Problem 5**
+# Problem 5
 
 <thinking>Got it, let's try to figure out this problem step by step. First, let's make sure I understand the game rules correctly. It's a turn-based game with Alice going first on odd turns (n=1,3,5,...) and Bazza on even turns (n=2,4,6,...). On each turn n, the current player picks a nonnegative real number x_n, and the constraint depends on whether n is odd or even:
 
@@ -1691,7 +1691,7 @@ Alice wins for $\lambda > \frac{\sqrt{2}}{2}$ and Bazza wins for $\lambda < \fra
 
 $\boxed{\text{Alice wins if } \lambda > \frac{\sqrt{2}}{2}; \text{ Bazza wins if } \lambda < \frac{\sqrt{2}}{2}}$
 
-**Problem 6**
+# Problem 6
 
 <thinking>Got it, let's try to figure out this problem step by step. The problem is about a 2025×2025 grid. We need to place rectangular tiles such that:
 

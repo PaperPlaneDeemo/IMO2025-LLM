@@ -1,4 +1,4 @@
-**Problem 1**
+# Problem 1
 
 Let $P$ be the set of points $(a,b)$ with $a, b$ being positive integers such that $a+b \le n+1$.
 A line is called *sunny* if it is not parallel to the $x$-axis ($y=c$), the $y$-axis ($x=c$), or the line $x+y=0$ ($x+y=c$). These three types of non-sunny lines are referred to as horizontal, vertical, and diagonal, respectively.
@@ -136,7 +136,7 @@ $n=5$: $\{0,1,3\}$. My analysis gives this ($k=4$ as $n-1$ not from $(4,4)$, $k=
 
 The set of possible values for $k$ is $\{0, 1, 3\}$ for any $n \ge 3$.
 
-**Problem 2**
+# Problem 2
 
 Let $l$ be the line containing $C,M,N,D$. Let $A$ be a point not on $l$.
 Let $s_{AC}$ be the reflection across line $AC$ and $s_{AD}$ be the reflection across line $AD$.
@@ -335,7 +335,7 @@ We need to prove $|OK_{EF} - d(H, AP)| = R_{BEF}$.
 
 This problem is very hard. The main properties are $MP \perp AC$, $NP \perp AD$. And $B,P,M,N$ are concyclic. The proof of the latter is non-trivial. Assuming it, one might proceed with vectors or complex numbers, but it will be very computational. The existence of a synthetic solution is likely but requires some deep theorem.
 
-**Problem 3**
+# Problem 3
 
 Let $P(a, b)$ be the assertion $f(a) \mid b^a - f(b)^{f(a)}$.
 
@@ -502,7 +502,7 @@ The value $c=2$ from the constructed bonza function is a lower bound. The attemp
 
 Final guess is $c=2$.
 
-**Problem 4**
+# Problem 4
 
 Let $a_n$ be a term in the sequence. The problem states that $a_n$ must have at least three proper divisors. This means the number of divisors of $a_n$, $\tau(a_n)$, must be at least 4. This implies that $a_n$ cannot be a prime number or the square of a prime number.
 
@@ -590,7 +590,7 @@ Therefore, the sequence can only exist if it is constant from the beginning. Thi
 
 The set of all possible values for $a_1$ is the set of all integers $N$ of the form $N = 2 \cdot 3^b \cdot m$, where $b$ is a positive integer and $m$ is a positive integer whose prime factors are all greater than or equal to 7.
 
-**Problem 5**
+# Problem 5
 
 Let $S_n = \sum_{i=1}^n x_i$ and $Q_n = \sum_{i=1}^n x_i^2$. The rules of the game are:
 - If $n$ is odd, Alice chooses $x_n \ge 0$ such that $S_n \le \lambda n$.
@@ -716,7 +716,7 @@ Thus, for $\lambda=\sqrt{2}/2$, neither player has a winning strategy.
 - Alice has a winning strategy for $\lambda > \sqrt{2}/2$.
 - Bazza has a winning strategy for $\lambda < \sqrt{2}/2$.
 
-**Problem 6**
+# Problem 6
 
 Let $n=2025$. The grid is an $n \times n$ grid of unit squares.
 Let $U$ be the set of uncovered unit squares. The problem states that each row and each column of the grid has exactly one uncovered unit square. This means that the set $U$ can be represented as $U = \{(i, \pi(i)) : i=1, \dots, n\}$ for some permutation $\pi$ of $\{1, \dots, n\}$.
